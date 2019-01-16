@@ -23,6 +23,18 @@ class ViewController: UIViewController {
     //a is a big array, born empty, that will contain four smaller arrays.
     //These four smaller arrays will be the four rows.
     var a: [[Int]] = [[Int]]();
+    
+    /*
+    //Or the array could be born with all 8 Ints already in it:
+    var a: [[Int]] = [
+        [0, 0],
+        [0, 0],
+        [0, 0],
+        [0, 0]
+    ];
+    //If you do it this way, comment out the three append statements.
+    And the append in line 54 will be replaced by a[row][col] = number;
+    */
 
     @IBOutlet weak var textField: UITextField!;
     
